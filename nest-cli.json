@@ -1,0 +1,33 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps",
+  "projects": {
+    "gateway": {
+      "type": "application",
+      "root": "apps/gateway",
+      "entryFile": "main",
+      "sourceRoot": "apps/gateway/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/gateway/tsconfig.json"
+      }
+    },
+    "product": {
+      "type": "application",
+      "root": "apps/product",
+      "entryFile": "main",
+      "sourceRoot": "apps/product/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/product/tsconfig.json"
+      }
+    },
+    "user": {
+      "type": "application",
+      "root": "apps/user",
+      "entryFile": "main",
+      "sourceRoot": "apps/user/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/user/tsconfig.json"
+      }
+    }
+  }
+}
